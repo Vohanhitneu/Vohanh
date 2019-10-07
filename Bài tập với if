@@ -1,0 +1,123 @@
+import java.util.Scanner;
+
+class Baitapif {
+    public static void main(String[] args) {
+
+// bài 1:kiểm tra xem hai số có bằng nhau
+        /*{
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Nhap vao so thu nhat a:");
+        Float a = in.nextFloat();
+
+        System.out.println("Nhap vao so thu hai b:");
+        Float b = in.nextFloat();
+
+        if (a == b) {
+            System.out.println("Hai so bang nhau");
+        }
+        else{
+            System.out.println("Hai so khong bang nhau");
+        }
+    }}
+}
+
+//bài 2 chiều cao
+        /* {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Chieu cao cua ban a la:");
+        float a = in.nextFloat();
+
+        if (a < 170 || a == 160 || a > 160) {
+            System.out.println("Ban a co chieu cao trung binh");
+        }
+        if (a > 170 || a==170 ) {
+            System.out.println("Ban a cao");
+        }
+        if (a < 160) {
+            System.out.println("Ban a thap");
+        }
+    }
+
+         /*
+         //bài3: Số chẵn, lẻ
+         */
+    /*
+        Scanner in = new Scanner(System.in);
+        System.out.println("Nhap vao mot so c:");
+        Float c = in.nextFloat();
+
+        if(c%2 == 0){
+            System.out.println("c la so chan");
+        }
+        else{
+            System.out.println("c la so le");
+        }
+
+    }
+}
+
+     */
+    //Bài4: Kiểm tra năm nhuận hay không
+    /*
+            Scanner in = new Scanner(System.in);
+            System.out.println("Nhap vao mot nam:");
+            Float c = in.nextFloat();
+
+            if(c%4 == 0){
+                System.out.println(" c la nam nhuan");
+            }
+            else{
+                System.out.println(" c la nam khong nhuan");
+            }
+
+        }
+
+     */
+    //Bài 5: Nghiệm của phương trình bậc hai
+        /*
+            Scanner nhap = new Scanner(System.in);
+            System.out.println("Nhap vao he so a, b, c cua phuong trinh bac 2: ");
+            float a = nhap.nextFloat();
+            float b = nhap.nextFloat();
+            float c = nhap.nextFloat();
+            double x = Math.pow(b,2) - 4*a*c;
+            if(x > 0){
+                System.out.println("Phuong trinh co 2 nghiem phan biet");
+            } else if (x == 0){
+                System.out.println("Phuong trinh co nghiem kep");
+            } else {
+                System.out.println("Phuong trinh vo nghiem");
+            }
+        }
+}
+
+         */
+        //Bài 6: Tính tiền điện
+        /*{Scanner nhap = new Scanner(System.in);
+        System.out.println("Nhap vao so dien a: ");
+        float a = nhap.nextFloat();
+        float Tongtien;
+        if (a <= 199) {
+            Tongtien=  a* 2000;
+            System.out.printf("Tong tien phai thanh toan: %f", Tongtien);
+        };
+        if (200 <= a && a <= 399) {
+            Tongtien = a * 3000;
+            System.out.printf("Tong tien phai thanh toan: %f", Tongtien);
+        };
+        if (400 <= a && a <= 599) {
+            Tongtien = a * 4000;
+            System.out.printf("Tong tien phai thanh toan: %f", Tongtien);
+        };
+        if (a >= 600) {
+            Tongtien = a * 5000;
+            System.out.printf("Tong tien phai thanh toan: %f", Tongtien);
+    }
+}
+}
+
+
+
+
+
