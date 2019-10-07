@@ -1,0 +1,44 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Baitapvonglapp {
+
+    public static void main(String[] args) {
+        // Bài1: Hiển thị ra 100 chữ số từ 1 đến 100
+   /* {
+       Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        for (int i=1;i<=n;i++)
+            System.out.printf(" %d ",i);
+      }
+
+    }
+
+    //Bài2: Viết chương trình nhập vào 1 số nguyên dương (báo lỗi nếu nhập vào số âm). In ra tổng từ 1 đến số nguyên dương đó.
+    */
+   /*
+        System.out.println("Nhap vao mot so nguyen duong a: ");
+        int a = in.nextInt();
+        if (a <= 0){
+            System.out.println("Ban da nhap SAI. Hay nhap lai!");
+        } else {
+            int tong = 0;
+            for (int i = 1; i <= a; i++) {
+                tong = tong + i;
+            }
+            System.out.println("Tong cac so la: " + tong);
+        }
+    }}
+    //Bài3:Viết chương trình tính tổng của chuỗi: 1 + 1/2 + 1/3 + 1/4 + 1/5 ... 1/n
+
+        System.out.printf("Nhap vao so n");
+        int n;
+        float tong=0;
+        n=in.nextInt();
+        for (int i = 1; i <= n; i++) {
+            tong=tong+1/(float) i;
+        }
+        System.out.println("Tong day so la: " + tong);
+    }
+    
